@@ -59,6 +59,11 @@ img, video { display: block; max-width: 100%; }
 .section { padding: 80px 0; }
 .section-dark { background: var(--gray-100); }
 .section-gray { background: var(--gray-50); }
+.section-safety { background: var(--gray-50); border-top: 1px solid var(--gray-200); border-bottom: 1px solid var(--gray-200); padding: 64px 0; }
+.safety-inner { max-width: 700px; }
+.safety-text p { color: var(--text); font-size: 1rem; line-height: 1.8; margin-bottom: 18px; }
+.safety-text p:last-child { margin-bottom: 0; }
+.safety-interest { font-style: italic; color: var(--blue); font-size: 0.95rem !important; font-weight: 500; }
 
 /* ---- Labels ---- */
 .eyebrow {
